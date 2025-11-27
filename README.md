@@ -1,34 +1,91 @@
-# README para o projeto final do Módulo I - Front-End do curso de Análise e Desenvolvimento de Sistemas do Centro Universitário Augusto Motta:
+📘 Projeto Final — Módulo I (Front-End)
+Curso de Análise e Desenvolvimento de Sistemas
+Centro Universitário Augusto Motta (UNISUAM)
 
-# Projeto Final do Módulo I - Front-End
+Este repositório contém o projeto final do Módulo I – Front-End, cujo objetivo é desenvolver um site para a Telecall, empresa do setor de telefonia e telecomunicações.
+O foco do trabalho é demonstrar domínio dos fundamentos de HTML, CSS e JavaScript, além da criação de recursos de acessibilidade.
 
-Este é o projeto final do Módulo I - Front-End do curso de Análise e Desenvolvimento de Sistemas do Centro Universitário Augusto Motta. O objetivo deste projeto é criar um site para a Telecall, uma empresa de telefonia e telecomunicações, com diversas funcionalidades.
+🚀 Tecnologias Utilizadas
 
-## Instalação
+HTML5
 
-Para instalar e executar este projeto, siga as instruções abaixo:
+CSS3
 
-1. Clone este repositório em sua máquina local.
-2. Abra o arquivo `index.html` em seu navegador.
+JavaScript
 
-## Uso
+AWS S3 (para hospedagem)
 
-Este site possui as seguintes funcionalidades:
+📦 Instalação
 
-1. Cadastro de novo usuário: permite que o usuário se cadastre no site, fornecendo informações como nome, data de nascimento, CPF, telefone celular, endereço completo, login e senha.
-2. Troca de contraste: permite que o usuário alterne entre fundo escuro e fonte clara, ou fonte clara e fundo escuro.
-3. Aumento e diminuição do tamanho das fontes: permite que o usuário aumente ou diminua o tamanho das fontes do site.
+Para executar o projeto localmente:
 
-## Contribuição
+git clone https://github.com/Jvictorj/Unipet-Petshop-Projeto.git
 
-Se você deseja contribuir para este projeto, siga as instruções abaixo:
 
-1. Faça um fork deste repositório.
-2. Crie uma nova branch com suas alterações: `git checkout -b minha-branch`
-3. Faça commit de suas alterações: `git commit -am 'Adicionando nova funcionalidade'`
-4. Envie suas alterações para o seu fork: `git push origin minha-branch`
-5. Crie um novo pull request.
+Após clonar, acesse a pasta do projeto.
 
-## Hospedagem do Site
+Abra o arquivo index.html diretamente no navegador de sua preferência.
 
-O site está hospedado na AWS S3. Você pode acessá-lo [aqui](https://meu-bucket-telecall-joao.s3.sa-east-1.amazonaws.com/projeto-telecall-main-meu/index.html).
+Não é necessário instalar dependências, pois o projeto é totalmente estático.
+
+🧩 Funcionalidades do Site
+🔐 1. Cadastro de Usuário
+
+Formulário completo solicitando:
+
+Nome
+
+Data de nascimento
+
+CPF
+
+Telefone celular
+
+Endereço completo
+
+Login
+
+Senha
+
+🌗 2. Alternância de Contraste
+
+Recurso de acessibilidade que permite alternar entre:
+
+Modo claro
+
+Modo escuro
+
+🔎 3. Controle de Tamanho da Fonte
+
+O usuário pode:
+
+Aumentar o tamanho do texto
+
+Diminuir o tamanho do texto
+
+🤝 Como Contribuir
+
+Contribuições são bem-vindas! Para colaborar:
+
+# 1. Faça um fork do repositório
+# 2. Crie uma branch para sua funcionalidade
+git checkout -b minha-nova-feature
+
+# 3. Realize suas alterações e faça commit
+git commit -m "Descrição da minha melhoria"
+
+# 4. Envie para o seu repositório remoto
+git push origin minha-nova-feature
+
+
+Depois disso, abra um Pull Request para revisão.
+
+🌐 Hospedagem
+
+O site está online através do AWS S3 e pode ser acessado aqui:
+
+👉 Clique para acessar o projeto hospedado
+
+📄 Licença
+
+Este projeto é apenas para fins acadêmicos e não possui fins comerciais.
