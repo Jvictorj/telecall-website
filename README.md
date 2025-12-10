@@ -1,102 +1,278 @@
-# 📘 Projeto Final — Módulo I (Front-End)
+# 🚀 Telecall - Plataforma CPaaS
 
-### Curso de Análise e Desenvolvimento de Sistemas
+## Projeto Final — Módulo I (Front-End)
 
-Este repositório contém o projeto final do **Módulo I – Front-End**, cujo objetivo é desenvolver um site institucional para a **Telecall**, empresa do setor de telefonia e telecomunicações.
-O projeto demonstra domínio dos fundamentos de **HTML, CSS e JavaScript**, incluindo a implementação de **recursos de acessibilidade**.
+Curso de Análise e Desenvolvimento de Sistemas
 
----
-
-## 🚀 Tecnologias Utilizadas
-
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **AWS S3** *(para hospedagem)*
+Um site institucional moderno para a **Telecall**, empresa líder em comunicações integradas (CPaaS - Communications Platform as a Service), com foco em acessibilidade e performance.
 
 ---
 
-## 📦 Instalação
+## ✨ Destaques do Projeto
 
-Para executar o projeto localmente:
+### 🎨 Arquitetura CSS Modular
+
+- **10 arquivos de design system** com tokens centralizados
+- **BEM naming convention** para máxima manutenibilidade
+- **CSS variables** para tema claro/escuro automático
+- **50%+ redução** em duplicação de código
+- **5 breakpoints responsivos** (480px, 580px, 820px, 1120px, 1300px)
+
+### 🖼️ Otimização de Imagens
+
+- `object-fit: contain` em todas as imagens
+- Dimensionamento automático sem distorção
+- Logos (200px), ícones (24-80px), ilustrações (150-600px)
+
+### 🌙 Modo Escuro Completo
+
+- Toggle automático com persistência em localStorage
+- Funciona em todas as 8 páginas
+- Menu mobile com controle independente
+- Carregamento automático da preferência do usuário
+
+### ♿ Acessibilidade
+
+- **Controle de tamanho de fonte** (aumentar/diminuir)
+- **Modo escuro/claro** totalmente funcional
+- **Navegação por teclado** otimizada
+- **Labels semânticos** em formulários
+- **ARIA attributes** implementados
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|-----------|-----------|
+| **HTML5** | Estrutura semântica e acessível |
+| **CSS3** | Modular com design system centralizado |
+| **JavaScript** | Vanilla JS (sem dependências) |
+| **Git** | Versionamento com histórico limpo |
+| **AWS S3** | Hospedagem estática |
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```bash
-git clone https://github.com/Jvictorj/Unipet-Petshop-Projeto.git
+telecall-website-unisuam-project/
+├── css/
+│   ├── variables.css           # Design tokens
+│   ├── reset.css               # CSS reset
+│   ├── components.css          # Componentes reutilizáveis
+│   ├── sections.css            # Seções de layout
+│   ├── services.css            # Cards de serviços
+│   ├── examples.css            # Exemplos
+│   ├── advantages.css          # Vantagens
+│   ├── forms.css               # Formulários
+│   ├── footer.css              # Footer
+│   ├── responsive.css          # Media queries
+│   ├── style.css               # Homepage
+│   ├── 2fa.css                 # 2FA page
+│   ├── google.css              # Google Verified Calls
+│   ├── sms.css                 # SMS page
+│   ├── numeromascara.css       # Número Máscara
+│   ├── cadastro.css            # Registration
+│   ├── redefinir.css           # Password Reset
+│   ├── login.css               # Login
+│   └── page-template.css       # Template reference
+├── JavaScript/
+│   ├── Darkmode.js             # Theme toggle
+│   ├── menu-toggle.js          # Mobile menu
+│   ├── fontsize.js             # Font size control
+│   ├── Login.js                # Login validation
+│   ├── register.js             # Registration
+│   └── ...
+├── IMG/
+│   ├── imagens/                # Images
+│   ├── icon-serviços/          # Service icons
+│   ├── Icons/                  # General icons
+│   ├── icons-2/                # Illustrations
+│   ├── Quem usa/               # Use cases
+│   └── SpaaS/                  # Platform screenshots
+├── home.html                   # Homepage
+├── index.html                  # Landing page
+├── 2fa.html                    # 2FA authentication
+├── google.html                 # Google Verified Calls
+├── numeromascara.html          # Phone masking
+├── sms.html                    # SMS service
+├── cadastro.html               # Registration
+├── login.html                  # Login
+├── redefinir.html              # Password reset
+└── README.md                   # Este arquivo
 ```
 
-Depois:
-
-1. Acesse a pasta do projeto
-2. Abra o arquivo **index.html** no navegador de sua preferência
-3. Não é necessário instalar dependências — o projeto é totalmente estático
-
 ---
 
-## 🧩 Funcionalidades do Site
+## 🚀 Quick Start
 
-### 🔐 1. Cadastro de Usuário
-
-Formulário com os seguintes campos:
-
-* Nome completo
-* Data de nascimento
-* CPF
-* Telefone celular
-* Endereço completo
-* Login
-* Senha
-
----
-
-### 🌗 2. Alternância de Contraste
-
-Recurso de acessibilidade que permite alternar entre:
-
-* **Modo claro**
-* **Modo escuro**
-
----
-
-### 🔎 3. Controle de Tamanho da Fonte
-
-O usuário pode:
-
-* **Aumentar** o tamanho da fonte
-* **Diminuir** o tamanho da fonte
-
----
-
-## 🤝 Como Contribuir
-
-Contribuições são bem-vindas!
-Para colaborar:
+### Instalação Local
 
 ```bash
-# 1. Faça um fork do repositório
-# 2. Crie uma branch para sua funcionalidade
-git checkout -b minha-nova-feature
+# Clone o repositório
+git clone https://github.com/Jvictorj/telecall-website-unisuam-project.git
 
-# 3. Realize suas alterações e faça commit
-git commit -m "Descrição da minha melhoria"
+# Entre na pasta
+cd telecall-website-unisuam-project
 
-# 4. Envie para o repositório remoto
-git push origin minha-nova-feature
+# Abra no navegador (sem servidor necessário)
+# Abra: ./index.html ou ./home.html
 ```
 
-Depois disso, abra um **Pull Request** para revisão.
+**Não requer nenhuma dependência!** O projeto é 100% estático.
 
 ---
 
-## 🌐 Hospedagem
+## 🎯 Páginas Disponíveis
 
-O site está hospedado no **AWS S3** e pode ser acessado aqui:
+| Página | URL | Descrição |
+|--------|-----|-----------|
+| **Home** | `home.html` | Homepage com serviços |
+| **Landing** | `index.html` | Página principal |
+| **2FA** | `2fa.html` | Two-Factor Authentication |
+| **Google Verified** | `google.html` | Google Verified Calls |
+| **SMS** | `sms.html` | SMS Programável |
+| **Número Máscara** | `numeromascara.html` | Phone Masking |
+| **Cadastro** | `cadastro.html` | Registro de usuário |
+| **Login** | `login.html` | Acesso de usuário |
+| **Redefinir Senha** | `redefinir.html` | Password reset |
 
-👉 **[Clique para acessar o projeto hospedado](https://meu-bucket-telecall-joao.s3.sa-east-1.amazonaws.com/projeto-telecall-main-meu/index.html)**
+---
+
+## ✅ Funcionalidades Implementadas
+
+### 🔐 Autenticação
+
+- ✅ Formulário de cadastro com validação
+- ✅ Formulário de login
+- ✅ Recuperação de senha
+- ✅ Validação de CPF e dados pessoais
+
+### 🌗 Acessibilidade
+
+- ✅ **Dark Mode** com toggle e persistência
+- ✅ **Font Size Control** (+/- proporção)
+- ✅ Navegação por teclado
+- ✅ Contraste adequado
+- ✅ Labels semânticos
+
+### 📱 Design Responsivo
+
+- ✅ Mobile-first
+- ✅ 5 breakpoints
+- ✅ Menu mobile interativo
+- ✅ Imagens redimensionadas corretamente
+
+### 🎨 Design System
+
+- ✅ Variables centralizadas
+- ✅ Componentes reutilizáveis
+- ✅ BEM naming
+- ✅ Tema consistente
+
+---
+
+## 📊 Estatísticas do Projeto
+
+| Métrica | Valor |
+|---------|-------|
+| Arquivos CSS | 19 |
+| Arquivos HTML | 9 |
+| Arquivos JavaScript | 6 |
+| Linhas CSS | 4.891+ |
+| Design System Files | 10 |
+| Redução de Código | 50%+ |
+| Breakpoints Responsivos | 5 |
+
+---
+
+## 🔄 Git Workflow
+
+O projeto segue **Conventional Commits**:
+
+```bash
+# Commits estruturados
+git commit -m "feat: add new feature"      # Nova funcionalidade
+git commit -m "fix: resolve bug"           # Correção
+git commit -m "docs: update readme"        # Documentação
+git commit -m "style: format code"         # Estilo
+git commit -m "refactor: improve code"     # Refatoração
+```
+
+### Histórico de Refatorações Principais
+
+1. **CSS Modularization** - Design system com 10 arquivos
+2. **Image Sizing** - Otimização de imagens com object-fit
+3. **Dark Mode Fix** - Funcionamento correto com localStorage
+
+---
+
+## 🌐 Acesso Online
+
+O projeto está hospedado no **AWS S3**:
+
+👉 **[Acessar Telecall Online](https://meu-bucket-telecall-joao.s3.sa-east-1.amazonaws.com/projeto-telecall-main-meu/index.html)**
+
+---
+
+## 📋 Como Contribuir
+
+Contribuições são bem-vindas! Para colaborar:
+
+```bash
+# 1. Faça um fork
+git clone https://github.com/seu-usuario/telecall-website-unisuam-project.git
+
+# 2. Crie uma branch
+git checkout -b feature/sua-funcionalidade
+
+# 3. Commit suas mudanças
+git commit -m "feat: descrição clara da mudança"
+
+# 4. Push para origin
+git push origin feature/sua-funcionalidade
+
+# 5. Abra um Pull Request
+```
+
+**Padrões de código:**
+
+- Usar BEM naming em CSS
+- Adicionar comentários em JavaScript complexo
+- Testar em ao menos 2 navegadores
+- Verificar acessibilidade (teclado + screen reader)
+
+---
+
+## 📚 Documentação Adicional
+
+- **[CSS Architecture](./css/CSS-README.md)** - Detalhes do design system
+- **[Verification Report](./VERIFICATION_REPORT.md)** - Relatório de testes
+
+---
+
+## 👥 Autores
+
+- **João Vitor Gomes** - Desenvolvimento principal
+- **Paulo Alves** - Colaboração
 
 ---
 
 ## 📄 Licença
 
 Este projeto foi desenvolvido **exclusivamente para fins acadêmicos**, sem fins comerciais.
+
+© 2025 Telecall Project. Todos os direitos reservados.
+
+---
+
+## 📞 Contato & Suporte
+
+Para dúvidas ou sugestões:
+
+- 📧 Email: [joao@exemplo.com](mailto:joao@exemplo.com)
+- 🐙 GitHub: [@Jvictorj](https://github.com/Jvictorj)
+- 💼 LinkedIn: [João Vitor](https://linkedin.com)
 
 ---
