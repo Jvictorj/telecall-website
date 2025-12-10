@@ -10,20 +10,6 @@ Um site institucional moderno para a **Telecall**, empresa líder em comunicaç�
 
 ## ✨ Destaques do Projeto
 
-### 🎨 Arquitetura CSS Modular
-
-- **10 arquivos de design system** com tokens centralizados
-- **BEM naming convention** para máxima manutenibilidade
-- **CSS variables** para tema claro/escuro automático
-- **50%+ redução** em duplicação de código
-- **5 breakpoints responsivos** (480px, 580px, 820px, 1120px, 1300px)
-
-### 🖼️ Otimização de Imagens
-
-- `object-fit: contain` em todas as imagens
-- Dimensionamento automático sem distorção
-- Logos (200px), ícones (24-80px), ilustrações (150-600px)
-
 ### 🌙 Modo Escuro Completo
 
 - Toggle automático com persistência em localStorage
@@ -37,7 +23,6 @@ Um site institucional moderno para a **Telecall**, empresa líder em comunicaç�
 - **Modo escuro/claro** totalmente funcional
 - **Navegação por teclado** otimizada
 - **Labels semânticos** em formulários
-- **ARIA attributes** implementados
 
 ---
 
@@ -173,20 +158,6 @@ cd telecall-website-unisuam-project
 
 ---
 
-## 📊 Estatísticas do Projeto
-
-| Métrica | Valor |
-|---------|-------|
-| Arquivos CSS | 19 |
-| Arquivos HTML | 9 |
-| Arquivos JavaScript | 6 |
-| Linhas CSS | 4.891+ |
-| Design System Files | 10 |
-| Redução de Código | 50%+ |
-| Breakpoints Responsivos | 5 |
-
----
-
 ## 🔄 Git Workflow
 
 O projeto segue **Conventional Commits**:
@@ -199,13 +170,6 @@ git commit -m "docs: update readme"        # Documentação
 git commit -m "style: format code"         # Estilo
 git commit -m "refactor: improve code"     # Refatoração
 ```
-
-### Histórico de Refatorações Principais
-
-1. **CSS Modularization** - Design system com 10 arquivos
-2. **Image Sizing** - Otimização de imagens com object-fit
-3. **Dark Mode Fix** - Funcionamento correto com localStorage
-
 ---
 
 ## 🌐 Acesso Online
@@ -239,7 +203,7 @@ git push origin feature/sua-funcionalidade
 **Padrões de código:**
 
 - Usar BEM naming em CSS
-- Adicionar comentários em JavaScript complexo
+- Adicionar comentários em JavaScript
 - Testar em ao menos 2 navegadores
 - Verificar acessibilidade (teclado + screen reader)
 
@@ -248,7 +212,6 @@ git push origin feature/sua-funcionalidade
 ## 📚 Documentação Adicional
 
 - **[CSS Architecture](./css/CSS-README.md)** - Detalhes do design system
-- **[Verification Report](./VERIFICATION_REPORT.md)** - Relatório de testes
 
 ---
 
@@ -271,8 +234,7 @@ Este projeto foi desenvolvido **exclusivamente para fins acadêmicos**, sem fins
 
 Para dúvidas ou sugestões:
 
-- 📧 Email: [joao@exemplo.com](mailto:joao@exemplo.com)
-- 🐙 GitHub: [@Jvictorj](https://github.com/Jvictorj)
-- 💼 LinkedIn: [João Vitor](https://linkedin.com)
+- 📧 Email: [contato.joaovitorgs@gmail.com](mailto:contato.joaovitorgs@gmail.com)
+- 💼 LinkedIn: [João Vitor](https://www.linkedin.com/in/joao-vitor-gomes-dev/)
 
 ---
