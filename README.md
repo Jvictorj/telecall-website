@@ -38,58 +38,6 @@ Um site institucional moderno para a **Telecall**, empresa líder em comunicaç�
 
 ---
 
-## 📁 Estrutura do Projeto
-
-```bash
-telecall-website-unisuam-project/
-├── css/
-│   ├── variables.css           # Design tokens
-│   ├── reset.css               # CSS reset
-│   ├── components.css          # Componentes reutilizáveis
-│   ├── sections.css            # Seções de layout
-│   ├── services.css            # Cards de serviços
-│   ├── examples.css            # Exemplos
-│   ├── advantages.css          # Vantagens
-│   ├── forms.css               # Formulários
-│   ├── footer.css              # Footer
-│   ├── responsive.css          # Media queries
-│   ├── style.css               # Homepage
-│   ├── 2fa.css                 # 2FA page
-│   ├── google.css              # Google Verified Calls
-│   ├── sms.css                 # SMS page
-│   ├── numeromascara.css       # Número Máscara
-│   ├── cadastro.css            # Registration
-│   ├── redefinir.css           # Password Reset
-│   ├── login.css               # Login
-│   └── page-template.css       # Template reference
-├── JavaScript/
-│   ├── Darkmode.js             # Theme toggle
-│   ├── menu-toggle.js          # Mobile menu
-│   ├── fontsize.js             # Font size control
-│   ├── Login.js                # Login validation
-│   ├── register.js             # Registration
-│   └── ...
-├── IMG/
-│   ├── imagens/                # Images
-│   ├── icon-serviços/          # Service icons
-│   ├── Icons/                  # General icons
-│   ├── icons-2/                # Illustrations
-│   ├── Quem usa/               # Use cases
-│   └── SpaaS/                  # Platform screenshots
-├── home.html                   # Homepage
-├── index.html                  # Landing page
-├── 2fa.html                    # 2FA authentication
-├── google.html                 # Google Verified Calls
-├── numeromascara.html          # Phone masking
-├── sms.html                    # SMS service
-├── cadastro.html               # Registration
-├── login.html                  # Login
-├── redefinir.html              # Password reset
-└── README.md                   # Este arquivo
-```
-
----
-
 ## 🚀 Quick Start
 
 ### Instalação Local
